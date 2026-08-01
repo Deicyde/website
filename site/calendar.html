@@ -9,8 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css?v=20260721-1" />
-  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260801-1" />
+  <script>(function(r){r.classList.add("js");if(!window.matchMedia||!window.matchMedia("(prefers-reduced-motion: reduce)").matches){r.classList.add("motion-ready");window.__nycLeanMotionFallback=window.setTimeout(function(){r.classList.remove("motion-ready");},2500);}})(document.documentElement);</script>
 </head>
 <body>
   <header class="site-header" id="nav">
@@ -48,11 +48,11 @@
          Upcoming first; past events move down automatically by date. -->
     <section class="section cal-body">
       <div class="cal-group">
-        <div class="sec-head"><span class="tag">Upcoming</span><span class="rule" data-rule></span></div>
+        <div class="sec-head"><h2 class="tag">Upcoming</h2><span class="rule" data-rule></span></div>
         <div class="ledger events" id="calendar-upcoming"></div>
       </div>
       <div class="cal-group" id="past-group" hidden>
-        <div class="sec-head"><span class="tag">Past</span><span class="rule" data-rule></span></div>
+        <div class="sec-head"><h2 class="tag">Past</h2><span class="rule" data-rule></span></div>
         <div class="ledger events past" id="calendar-past"></div>
       </div>
     </section>
@@ -67,9 +67,9 @@
     <p class="footer-meta">Made by the community · <a href="https://github.com/NYC-Lean/website" target="_blank" rel="noopener">Edit this site ↗︎</a> · <span class="qed">∎</span></p>
   </footer>
 
-  <script src="assets/js/events.js?v=20260721-1" defer></script>
+  <script src="assets/js/events.js?v=20260801-1" defer></script>
   <script src="assets/vendor/gsap/gsap.min.js" defer></script>
   <script src="assets/vendor/gsap/ScrollTrigger.min.js" defer></script>
-  <script src="assets/js/app.js?v=20260721-1" defer></script>
+  <script src="assets/js/app.js?v=20260801-1" defer></script>
 </body>
 </html>
